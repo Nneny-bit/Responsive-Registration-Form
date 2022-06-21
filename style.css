@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    min-height: 100vh;
+    background-color: black;
+    
+}
+form{
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    margin-right: 50px;
+   
+}
+.btn1{
+    margin-bottom: 15px;
+    width: 400px;
+    background-color: rgb(69, 32, 104);
+    padding: 15px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.inputbox{
+    margin: 20px 0;
+    position: relative;
+}
+.inputbox input{
+    display: box;
+    width: 100%;
+    padding: 10px;
+}
+.inputbox span{
+    position: absolute;
+    right: 10px; 
+    
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: none;
+}
+.inputbox p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+.para2{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 16px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(desktop.png);
+    width: 950px;
+    margin-left: 20%;
+    background-color: rgb(238, 97, 121);
+    height: 100vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+   
+
+}
+.content{
+padding-right: 50px;
+margin-left: 50px;
+}
+.content h1{
+    color: white;
+    font-size: 35px;
+    margin-top: 50%;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.content .para1{
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    
+}
+
+
+@media(max-width:375px){
+    body{
+        flex-direction: column;
+        font-size: 16px;
+    }
+    
+}
+@media(max-width:1440px){
+    body{
+      flex-direction: column; 
+      font-size: 16px; 
+
+    }
+}
+/* width: 900px;
+    aspect-ratio: auto 900 / 500;
+    height: 500px; */
